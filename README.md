@@ -1,45 +1,49 @@
 # 🧾 EasyTask
 
-**EasyTask** é uma aplicação de gerenciamento de tarefas desenvolvida com Angular, que permite visualizar, adicionar, concluir e excluir tarefas por usuário. Criado como parte do curso *Angular - The Complete Guide (2025 Edition)*, o projeto utiliza conceitos modernos como `signals`, serviços reativos e `content projection`.
+> 📘 Este README também está disponível em [Português 🇧🇷](./README.pt-br.md)
 
-![Preview do EasyTask](./task-management-app.png)
+**EasyTask** is a task management app built with Angular that lets you view, add, complete, and delete tasks by user. Created as part of the course *Angular - The Complete Guide (2025 Edition)*, this project applies modern Angular features like `signals`, reactive services, and `content projection`.
 
----
+> 🌐 Live demo available at: [https://dihcoder.github.io/easy-task](https://dihcoder.github.io/easy-task)
 
-## ✨ Funcionalidades
-
-* Alternar entre diferentes usuários com tarefas separadas
-* Adicionar novas tarefas
-* Marcar tarefas como concluídas
-* Excluir tarefas
-* Armazenamento persistente com **localStorage**
+![EasyTask Preview](./task-management-app.png)
 
 ---
 
-## 🧠 Conceitos Angular Utilizados
+## ✨ Features
 
-* `@Input()` e `@Output()` com `signals`
-* `ng-content` para projeção de conteúdo
-* Estado reativo com `signal` e `computed`
-* Comunicação entre componentes
-* Services compartilhados com `@Injectable()`
-* Componentização modular e reutilizável
-* Boas práticas de estrutura por **feature**
+* Switch between users with separate task lists  
+* Add new tasks  
+* Mark tasks as completed  
+* Delete tasks  
+* Persistent storage with **localStorage**
+
+---
+
+## 🧠 Angular Concepts Used
+
+* `@Input()` and `@Output()` with `signals`  
+* `ng-content` for content projection  
+* Reactive state with `signal` and `computed`  
+* Component communication  
+* Shared services with `@Injectable()`  
+* Modular, reusable componentization  
+* Feature-based folder structure  
 * Pipes (`date`)
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
-* [Angular](https://angular.io/) v19.1
-* TypeScript
-* HTML/CSS
-* TailwindCSS (uso parcial e progressivo)
+* [Angular](https://angular.io/) v19.1  
+* TypeScript  
+* HTML/CSS  
+* TailwindCSS (partial and progressive use)  
 * localStorage (Web Storage API)
 
 ---
 
-## 📁 Estrutura de Pastas
+## 📁 Folder Structure
 
 ```bash
 src/
@@ -50,58 +54,58 @@ src/
 │   │       └── user.service.ts
 │   ├── features/
 │   │   ├── tasks/
-│   │   │   ├── add-task/         # Formulário para adicionar tarefas
-│   │   │   ├── task/             # Componente de tarefa individual + task.model.ts
+│   │   │   ├── add-task/         # Task form
+│   │   │   ├── task/             # Single task component + task.model.ts
 │   │   │   ├── tasks.component.*
 │   │   └── user-list/
-│   │       ├── user/             # Componente de usuário individual + user.model.ts
+│   │       ├── user/             # Single user component + user.model.ts
 │   │       ├── user-list.component.*
 │   └── shared/
-│       ├── card/                # Componente de layout reutilizável
-│       └── header/              # Cabeçalho da aplicação
+│       ├── card/                # Reusable layout component
+│       └── header/              # App header
 ├── assets/
-│   ├── users/                   # Imagens de usuários
+│   ├── users/                   # User images
 │   └── task-management-logo.png
-```
+````
 
-> A estrutura é baseada no padrão **Core + Features + Shared**, promovendo escalabilidade e organização modular.
-
----
-
-## 🎨 Estilização
-
-* A base da estilização é feita com **CSS puro**.
-* O projeto já inclui o TailwindCSS como dependência para futura migração e aplicação de utilitários.
-* Estilização responsiva e moderna, com componentes reaproveitáveis.
+> The structure follows the **Core + Features + Shared** pattern, promoting scalability and modular organization.
 
 ---
 
-## ▶️ Como Executar Localmente
+## 🎨 Styling
+
+* Base styling is written in **pure CSS**.
+* TailwindCSS is included for future utility-first adoption.
+* Responsive and modern design with reusable components.
+
+---
+
+## ▶️ How to Run Locally
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/dihcoder/easy-task.git
 cd easy-task
 
-# Instale as dependências
+# Install dependencies
 npm install
 
-# Rode o servidor de desenvolvimento
+# Run the development server
 ng serve
 ```
 
-Acesse em: [http://localhost:4200](http://localhost:4200)
+Access at: [http://localhost:4200](http://localhost:4200)
 
 ---
 
-## 📚 Objetivo do Projeto
+## 📚 Project Goal
 
-Esse projeto foi desenvolvido com fins educacionais, como parte do curso de Angular da [Udemy](https://www.udemy.com/) ministrado por [Maximilian Schwarzmüller](https://www.udemy.com/course/the-complete-guide-to-angular-2/). Seu propósito é consolidar a arquitetura moderna Angular, práticas recomendadas e recursos atualizados da framework.
+This project was developed for educational purposes, as part of the Angular course on [Udemy](https://www.udemy.com/) taught by [Maximilian Schwarzmüller](https://www.udemy.com/course/the-complete-guide-to-angular-2/). Its goal is to consolidate modern Angular architecture, best practices, and up-to-date framework features.
 
 ---
 
-## 🧑‍💻 Autor
+## 🧑‍💻 Author
 
 **Diego Silva**
-Entusiasta de tecnologia apaixonado por desenvolvimento e design.
+Tech enthusiast passionate about development and design.
 [GitHub: @dihcoder](https://github.com/dihcoder)

@@ -6,6 +6,8 @@
 
 > 🌐 Acesse a demonstração online em: [https://dihcoder.github.io/easy-task](https://dihcoder.github.io/easy-task)
 
+<br/>
+
 ![Preview do EasyTask](./task-management-app.png)
 
 ---

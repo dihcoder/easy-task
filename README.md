@@ -6,6 +6,8 @@
 
 > 🌐 Live demo available at: [https://dihcoder.github.io/easy-task](https://dihcoder.github.io/easy-task)
 
+<br/>
+
 ![EasyTask Preview](./task-management-app.png)
 
 ---

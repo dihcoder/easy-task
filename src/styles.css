@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-custom-blue-900: #181023;
+  --color-custom-blue-950: #0b0519;
+  --color-custom-purple-300: #c3b3d8;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: none;
+}

@@ -1,0 +1,12 @@
+<ul id="users-list">
+    @for (user of users(); track user.id) {
+        <li>
+            <!-- property binding to input a value -->
+            <app-user 
+                [user]="user"
+                [selected]="user.id === selectedUserId()"
+                (selectEvent)="onSelectUser($event)" />
+            <!-- (select) is our custom event -->
+        </li>
+    }
+</ul>

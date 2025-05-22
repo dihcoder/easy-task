@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<main class="max-w-4xl">
+    <app-user-list (userSelectEvent)="onSelectUser($event)" />
+
+    <!-- conditional content -->
+    @if (selectedUser()) {
+    <app-tasks [selectedUser]="selectedUser()!" /> <!-- if signal, .name -->
+    } @else {
+    <p id="fallback">Select a user to view their tasks!</p>
+    }
+
+    <router-outlet></router-outlet>
+</main>
+
+<!-- <app-footer></app-footer> -->
+
+<!-- <app-cookie-modal *ngIf="showCookieModal" (accepted)="onCookiesAccepted()">
+    </app-cookie-modal> -->

@@ -1,0 +1,28 @@
+main {
+  position: relative;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+#fallback {
+  font-weight: bold;
+  font-size: 1.15rem;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: 4rem auto;
+    padding-top: 0;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  #fallback {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}

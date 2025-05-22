@@ -1,6 +1,6 @@
-# 🧾 EasyTask
-
 > 📘 This README is also available in [English](./README.md).
+
+# 🧾 EasyTask
 
 **EasyTask** é uma aplicação de gerenciamento de tarefas desenvolvida com Angular, que permite visualizar, adicionar, concluir e excluir tarefas por usuário. Criado como parte do curso *Angular - The Complete Guide (2025 Edition)*, o projeto utiliza conceitos modernos como `signals`, serviços reativos e `content projection`.
 
